@@ -3,25 +3,22 @@
 <script src ="avatarMaker.js"></script>
 <link rel="stylesheet" href="style.css"/>
 
-  <section class="avi">
+<section class="avi" id="avatarSection">
+  <span id="avatarFrame">
     <img src="avatarImages/bodyTemp400x400.png" alt="lookin' good!"
-      class = "default" id="defaultBody"/>
+    class = "default" id="defaultBody"/>
     <img src="avatarImages/hat1temp.png" id="redhat" category="hat"/>
     <img src="avatarImages/hat2temp.png" id="greenhat" category="hat"/>
-  </section>
+  </span>
+</section>
 
-  <hr>
-
-  <section>
-      <span id="item selections" class="menu">
-        <label for="hat1">
-          <input type="button" onClick="toggleVisibility('redhat');">
-        <!-- <img src="" alt=""> thumbnail-->
-        red hat </label>
-        <label for="hat2">
-          <input type="button" onClick="toggleVisibility('greenhat');">
-        green hat</label>
-      </span>
-  </section>
-
+<section>
+  <div id="menu">
+    <div/ id="hats">
+    <button type="button" onClick="toggleVisibility('redhat');"> red hat </button>
+    <button type="button" onClick="toggleVisibility('greenhat');"> green hat </button>
+    <div/>
+    <button/>
+  </div>
+</section>
 </html>

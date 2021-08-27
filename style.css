@@ -1,21 +1,35 @@
-hr {
-  padding-top: 450px
+#avatarSection {
+  background-color: lightblue;
+  height:410px;
+}
+
+#avatarFrame {
+  top:5px;
+  position:relative;
+  left: 40%;
 }
 
 .avi img {
   visibility: hidden;
   position:absolute;
-  left:0px;
-  border: 3px;
-  padding: 20px;
+  height: auto;
 }
 
 #defaultBody {
   visibility: visible;
 }
 
-.avi section{
-  top: 300 px;
-  left-align:auto;
-  right-align:auto;
+#menu {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+button {
+  width: 5%;
+  padding: 10px 15px;
+  border: 0;
+  background: pink;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
 }
