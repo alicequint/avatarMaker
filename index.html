@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src ="avatarMaker.js"></script>
+<link rel="stylesheet" href="style.css"/>
+
+  <section class="avi">
+    <img src="avatarImages/bodyTemp400x400.png" alt="lookin' good!"
+      class = "default" id="defaultBody"/>
+    <img src="avatarImages/hat1temp.png" id="redhat" category="hat"/>
+    <img src="avatarImages/hat2temp.png" id="greenhat" category="hat"/>
+  </section>
+
+  <hr>
+
+  <section>
+      <span id="item selections" class="menu">
+        <label for="hat1">
+          <input type="button" onClick="toggleVisibility('redhat');">
+        <!-- <img src="" alt=""> thumbnail-->
+        red hat </label>
+        <label for="hat2">
+          <input type="button" onClick="toggleVisibility('greenhat');">
+        green hat</label>
+      </span>
+  </section>
+
+</html>

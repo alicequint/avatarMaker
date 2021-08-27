@@ -1,0 +1,21 @@
+hr {
+  padding-top: 450px
+}
+
+.avi img {
+  visibility: hidden;
+  position:absolute;
+  left:0px;
+  border: 3px;
+  padding: 20px;
+}
+
+#defaultBody {
+  visibility: visible;
+}
+
+.avi section{
+  top: 300 px;
+  left-align:auto;
+  right-align:auto;
+}
