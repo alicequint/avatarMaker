@@ -14,7 +14,6 @@ function toggleVisibility(id){
 //makes newElement visible, and makes invisible all elements that share
 //the same "category" tag.
 function changeInto(newElement){
-  console.log(newElement.class);
   newElement.style.visibility = 'visible'
   avatar.forEach((oldElement, i) => {
     if(sameCategory(oldElement,newElement)) changeOutOf(oldElement)
