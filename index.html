@@ -6,17 +6,43 @@
 <section class="avi" id="avatarSection">
   <span id="avatarFrame">
     <img src="avatarImages/bodyTemp400x400.png" alt="lookin' good!"
-    class = "default" id="defaultBody"/>
-    <img src="avatarImages/hat1temp.png" id="redhat" category="hat"/>
-    <img src="avatarImages/hat2temp.png" id="greenhat" category="hat"/>
+    class = "default" id="defaultBody" category="body"/>
+    <img src="avatarImages/hat1temp.png" id="hat-red" class="hat"/>
+    <img src="avatarImages/hat2temp.png" id="hat-green" class="hat"/>
+
+    <img src="avatarImages/body-angular.png" id="body-angular" class="body"/>
+    <img src="avatarImages/body-ghost.png" id="body-ghost" class="body"/>
+    <img src="avatarImages/body-purple.png" id="body-purple" class="body"/>
+    <img src="avatarImages/body-soft.png" id="body-soft" class="body"/>
+    <img src="avatarImages/body-waving.png" id="body-waving" class="body"/>
+
+    <img src="avatarImages/eyes-diamond.png" id="eyes-diamond"/>
+    <img src="avatarImages/eyes-excited.png" id="eyes-excited"/>
+    <img src="avatarImages/eyes-glasses.png" id="eyes-glasses"/>
+    <img src="avatarImages/eyes-intense.png" id="eyes-intense"/>
+    <img src="avatarImages/eyes-modest.png" id="eyes-modest"/>
   </span>
 </section>
 
 <section>
   <div id="menu">
+    <div id = "bodies">
+      <button type="button" onClick="toggleVisibility('body-angular');"> angular body </button>
+      <button type="button" onClick="toggleVisibility('body-ghost');"> ghost body </button>
+      <button type="button" onClick="toggleVisibility('body-purple');"> purple body </button>
+      <button type="button" onClick="toggleVisibility('body-soft');"> soft body </button>
+      <button type="button" onClick="toggleVisibility('body-waving');"> waving body </button>
+    </div>
+    <div id = "eyes">
+      <button type="button" onClick="toggleVisibility('eyes-diamond');"> diamond eyes </button>
+      <button type="button" onClick="toggleVisibility('eyes-excited');"> excited eyes </button>
+      <button type="button" onClick="toggleVisibility('eyes-glasses');"> glasses eyes </button>
+      <button type="button" onClick="toggleVisibility('eyes-intense');"> intense eyes </button>
+      <button type="button" onClick="toggleVisibility('eyes-modest');"> modest eyes </button>
+    </div>
     <div/ id="hats">
-    <button type="button" onClick="toggleVisibility('redhat');"> red hat </button>
-    <button type="button" onClick="toggleVisibility('greenhat');"> green hat </button>
+    <button type="button" onClick="toggleVisibility('hat-red');"> red hat </button>
+    <button type="button" onClick="toggleVisibility('hat-green');"> green hat </button>
     <div/>
     <button/>
   </div>
