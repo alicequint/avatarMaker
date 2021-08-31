@@ -1,28 +1,29 @@
 #avatarSection {
+  /* background-color: lightblue; */
+  position: relative;
+  margin: auto;
+  height:400px;
+  width:400px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: darkgray;
   background-color: lightblue;
-  height:410px;
-}
-
-#avatarFrame {
-  top:5px;
-  position:relative;
-  left: 40%;
 }
 
 .avi img {
+  background-color: transparent;
   visibility: hidden;
   position:absolute;
   height: auto;
 }
 
-#defaultBody {
+/* #body-purple {
   visibility: visible;
-}
+} */
 
-#menu {
-  margin-left: 25%;
-  margin-right: 25%;
-}
+/* .menu {
+  margin: auto;
+} */
 
 button {
   width: 5%;
