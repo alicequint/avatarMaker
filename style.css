@@ -11,15 +11,13 @@
 }
 
 .avi img {
-  background-color: transparent;
   visibility: hidden;
   position:absolute;
-  height: auto;
 }
 
-/* #body-purple {
-  visibility: visible;
-} */
+canvas {
+  position:absolute;
+}
 
 /* .menu {
   margin: auto;
