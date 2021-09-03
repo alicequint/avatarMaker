@@ -30,49 +30,53 @@
   <img src="avatarImages/eyes-glasses.png" id="eyes-glasses"class="eyes"/>
   <img src="avatarImages/eyes-intense.png" id="eyes-intense"class="eyes"/>
   <img src="avatarImages/eyes-modest.png" id="eyes-modest"class="eyes"/>
-
 </section>
 
-<section class = "menu">
-  <button type="button" onClick="createDownloadableImage()"
-  download="avatarImages/downloadableImage.png"> Download </button>
-  <button type="button" onClick="randomizeAvatar()"> Random </button>
-</section>
-
-<section>
-  <div class = "menu">
-    <div id = "bodies">
-      bodies:
-      <button type="button" onClick="toggleVisibility('body-angular');"> angular body </button>
-      <button type="button" onClick="toggleVisibility('body-ghost');"> ghost body </button>
-      <button type="button" onClick="toggleVisibility('body-purple');"> purple body </button>
-      <button type="button" onClick="toggleVisibility('body-soft');"> soft body </button>
-      <button type="button" onClick="toggleVisibility('body-waving');"> waving body </button>
-    </div>
-    <div id = "eyes">
-      eyes:
-      <button type="button" onClick="toggleVisibility('eyes-diamond');"> diamond eyes </button>
-      <button type="button" onClick="toggleVisibility('eyes-excited');"> excited eyes </button>
-      <button type="button" onClick="toggleVisibility('eyes-glasses');"> glasses eyes </button>
-      <button type="button" onClick="toggleVisibility('eyes-intense');"> intense eyes </button>
-      <button type="button" onClick="toggleVisibility('eyes-modest');"> modest eyes </button>
-    </div>
-    <div id="mouths">
-      mouths:
-      <button type="button" onClick="toggleVisibility('mouth-animal');"> modest eyes </button>
-      <button type="button" onClick="toggleVisibility('mouth-chewy');"> modest eyes </button>
-      <button type="button" onClick="toggleVisibility('mouth-jagged');"> modest eyes </button>
-      <button type="button" onClick="toggleVisibility('mouth-smile');"> modest eyes </button>
-      <button type="button" onClick="toggleVisibility('mouth-surprised');"> modest eyes </button>
-    </div>
-    <div/ id="hairstyles">
-    hair*:
-    <button type="button" onClick="toggleVisibility('hair-crown');"> modest eyes </button>
-    <button type="button" onClick="toggleVisibility('hair-curly');"> modest eyes </button>
-    <button type="button" onClick="toggleVisibility('hair-long');"> modest eyes </button>
-    <button type="button" onClick="toggleVisibility('hair-spiky');"> modest eyes </button>
-    <button type="button" onClick="toggleVisibility('hair-sprout');"> modest eyes </button>
-    <div/>
+<div class = "menu">
+  <div class="style-category" id = "bodies">
+    <span class="style-category-label">
+      body
+    </span>
+    <button type="button" onClick="toggleVisibility('body-angular');"> angular </button>
+    <button type="button" onClick="toggleVisibility('body-ghost');"> ghost </button>
+    <button type="button" onClick="toggleVisibility('body-purple');"> purple </button>
+    <button type="button" onClick="toggleVisibility('body-soft');"> soft </button>
+    <button type="button" onClick="toggleVisibility('body-waving');"> waving </button>
   </div>
-</section>
+  <div class="style-category" id="eyes">
+    <span class="style-category-label">
+      eyes
+    </span>
+    <button type="button" onClick="toggleVisibility('eyes-diamond');"> diamond </button>
+    <button type="button" onClick="toggleVisibility('eyes-excited');"> excited </button>
+    <button type="button" onClick="toggleVisibility('eyes-glasses');"> glasses </button>
+    <button type="button" onClick="toggleVisibility('eyes-intense');"> intense </button>
+    <button type="button" onClick="toggleVisibility('eyes-modest');"> modest </button>
+  </div>
+  <div class="style-category" id="mouths">
+    <span class="style-category-label">
+      mouth
+    </span>
+    <button type="button" onClick="toggleVisibility('mouth-animal');"> animal </button>
+    <button type="button" onClick="toggleVisibility('mouth-chewy');"> chewy </button>
+    <button type="button" onClick="toggleVisibility('mouth-jagged');"> jagged </button>
+    <button type="button" onClick="toggleVisibility('mouth-smile');"> smile </button>
+    <button type="button" onClick="toggleVisibility('mouth-surprised');"> surprised </button>
+  </div>
+  <div class="style-category" id="hairstyles">
+    <span class="style-category-label">
+      hair
+    </span>
+    <button type="button" onClick="toggleVisibility('hair-crown');"> crown </button>
+    <button type="button" onClick="toggleVisibility('hair-curly');"> curly </button>
+    <button type="button" onClick="toggleVisibility('hair-long');"> long </button>
+    <button type="button" onClick="toggleVisibility('hair-spiky');"> spiky </button>
+    <button type="button" onClick="toggleVisibility('hair-sprout');"> sprout </button>
+  </div>
+</div>
+
+<div class = "menu">
+  <button id="randomButton" type="button" onClick="randomizeAvatar()"> Random </button>
+</div>
+
 </html>

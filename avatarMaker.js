@@ -68,8 +68,3 @@ function randomizeAvatar() {
     redrawAvatar()
   });
 }
-
-function createDownloadableImage() {
-  console.log(avatar);
-  // TODO: canvas to image.
-}

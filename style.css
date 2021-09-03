@@ -1,5 +1,4 @@
 #avatarSection {
-  /* background-color: lightblue; */
   position: relative;
   margin: auto;
   height:400px;
@@ -19,16 +18,39 @@ canvas {
   position:absolute;
 }
 
-/* .menu {
-  margin: auto;
-} */
-
 button {
-  width: 5%;
-  padding: 10px 15px;
-  border: 0;
-  background: pink;
-  color: #fff;
+  width: 15%;
+  padding: 10px 5px;
+  border: 2px;
+  background: lightgreen;
+  color: darkgreen;
   border-radius: 5px;
-  margin: 5px 0;
+  font-family: tahoma;
+  margin:5px;
+}
+
+#randomButton {
+  background: pink;
+  display:block;
+  margin:auto;
+  color:darkred;
+}
+
+.menu {
+  display:block;
+  max-width: 700px;
+  position:relative;
+  margin:auto;
+}
+
+.style-category-label {
+  width:10%;
+  font-family: helvetica, bold;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.style-category{
+  display: flex;
+  justify-content: space-between;
 }
