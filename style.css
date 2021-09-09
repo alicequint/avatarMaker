@@ -1,12 +1,17 @@
+* {
+  font-family: helvetica;
+}
+
 #avatarSection {
   position: relative;
   margin: auto;
   height:400px;
   width:400px;
   border-style: solid;
-  border-radius: 10px;
-  border-color: darkgray;
+  border-radius: 5px;
+  border-color: #4a4a4a;
   background-color: lightblue;
+  border-width: thick;
 }
 
 .avi img {
@@ -19,7 +24,7 @@ canvas {
 }
 
 button {
-  width: 15%;
+  min-width: 15%;
   padding: 10px 5px;
   border: 2px;
   background: lightgreen;
@@ -32,20 +37,21 @@ button {
 #randomButton {
   background: pink;
   display:block;
-  margin:auto;
   color:darkred;
+  margin-top: 1em;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .menu {
   display:block;
-  max-width: 700px;
-  position:relative;
+  min-width: 40%;
+  width:auto;
   margin:auto;
 }
 
-.style-category-label {
-  width:10%;
-  font-family: helvetica, bold;
+.style-category__label {
+  min-width:15%;
   font-weight: bold;
   padding: 10px;
 }
@@ -53,4 +59,22 @@ button {
 .style-category{
   display: flex;
   justify-content: space-between;
+}
+
+body{
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+
+#links {
+  color:gray;
+  width:500px;;
+  display:block;
+  position:relative;
+  /* margin:auto; */
+  font-size: .8rem;
 }

@@ -5,7 +5,7 @@
 
 <section class="avi" id="avatarSection">
 
-  <canvas id="avatarCanvas" height="400px" width="400px"/>
+  <canvas id="avatarCanvas" height="400px" width="400px"alt="cartoon portrait"/>
 
   <img src="avatarImages/body-angular.png" id="body-angular" class="body"/>
   <img src="avatarImages/body-ghost.png" id="body-ghost" class="body"/>
@@ -34,7 +34,7 @@
 
 <div class = "menu">
   <div class="style-category" id = "bodies">
-    <span class="style-category-label">
+    <span class="style-category__label">
       body
     </span>
     <button type="button" onClick="toggleVisibility('body-angular');"> angular </button>
@@ -44,7 +44,7 @@
     <button type="button" onClick="toggleVisibility('body-waving');"> waving </button>
   </div>
   <div class="style-category" id="eyes">
-    <span class="style-category-label">
+    <span class="style-category__label">
       eyes
     </span>
     <button type="button" onClick="toggleVisibility('eyes-diamond');"> diamond </button>
@@ -54,7 +54,7 @@
     <button type="button" onClick="toggleVisibility('eyes-modest');"> modest </button>
   </div>
   <div class="style-category" id="mouths">
-    <span class="style-category-label">
+    <span class="style-category__label">
       mouth
     </span>
     <button type="button" onClick="toggleVisibility('mouth-animal');"> animal </button>
@@ -64,7 +64,7 @@
     <button type="button" onClick="toggleVisibility('mouth-surprised');"> surprised </button>
   </div>
   <div class="style-category" id="hairstyles">
-    <span class="style-category-label">
+    <span class="style-category__label">
       hair
     </span>
     <button type="button" onClick="toggleVisibility('hair-crown');"> crown </button>
@@ -73,10 +73,18 @@
     <button type="button" onClick="toggleVisibility('hair-spiky');"> spiky </button>
     <button type="button" onClick="toggleVisibility('hair-sprout');"> sprout </button>
   </div>
+  <button id="randomButton" type="button" onClick="randomizeAvatar()"> Random </button>
 </div>
 
 <div class = "menu">
-  <button id="randomButton" type="button" onClick="randomizeAvatar()"> Random </button>
+
 </div>
+
+<footer>
+  <div id="links">
+    Made by: Alice Quintanilla
+    (<a href="https://github.com/alicequint">Github</a>)
+  </div>
+</footer>
 
 </html>
